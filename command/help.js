@@ -69,6 +69,26 @@ ${mundur}
  • ${prefix}say
  • ${prefix}translate${petik}
 
+*ANONYMOUS CHATS*${petik}
+ • ${prefix}anonymous
+ • ${prefix}start
+ • ${prefix}next
+ • ${prefix}stop
+ • ${prefix}sendprofile${petik}
+
+*STORE MENU*${petik}
+ • ${prefix}list
+ • ${prefix}addlist
+ • ${prefix}dellist
+ • ${prefix}update
+ • ${prefix}jeda
+ • ${prefix}tambah
+ • ${prefix}kurang
+ • ${prefix}kali
+ • ${prefix}bagi
+ • proses < reply chat >
+ • done < reply chat >${petik}
+
 *DOWNLOADS MENU*${petik}
  • ${prefix}play
  • ${prefix}ytmp3
@@ -107,11 +127,42 @@ ${mundur}
  • ${prefix}hidetag
  • ${prefix}checksewa${petik}
 
+*GAME MENU*${petik}
+ • ${prefix}tictactoe
+ • ${prefix}delttt
+ • ${prefix}casino
+ • ${prefix}delcasino${petik}
 
 *SEARCH MENU*${petik}
  • ${prefix}lirik
+ • ${prefix}grupwa
  • ${prefix}pinterest
  • ${prefix}ytsearch
+ • ${prefix}searchbyimage${petik}
+
+*RANDOM MENU*${petik}
+ • ${prefix}cecan
+ • ${prefix}cogan
+ • ${prefix}waifu${petik}
+
+
+*BALANCE MENU*${petik}
+ • ${prefix}topglobal
+ • ${prefix}toplocal
+ • ${prefix}buylimit
+ • ${prefix}buyglimit
+ • ${prefix}transfer
+ • ${prefix}limit
+ • ${prefix}balance${petik}
+
+*BAILEYS*${petik}
+ • ${prefix}fitnah
+ • ${prefix}nowa
+ • ${prefix}getquoted
+ • ${prefix}fakehidetag
+ • ${prefix}react
+ • ${prefix}setcmd
+ • ${prefix}delcmd${petik}
 
 *OWNERS MENU*${petik}
  • ${prefix}join
@@ -120,9 +171,15 @@ ${mundur}
  • ${prefix}public
  • ${prefix}setprefix
  • ${prefix}setppbot
+ • ${prefix}broadcast
+ • ${prefix}bcsewa
+ • ${prefix}addpremium
+ • ${prefix}delpremium
+ • ${prefix}addsewa
+ • ${prefix}delsewa${petik}`
 }
 
 exports.donate = (pushname, ownerNumber) => {
     return`Contact  Owner:
-wa.me/6285771923798 (Owner)`
+wa.me/62887435047326 (Owner)`
 }
